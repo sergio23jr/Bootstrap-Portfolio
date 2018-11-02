@@ -1,113 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Bootstrap-Portfolio/assets/untitled folder/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
     <title>Document</title>
-    <style>
-        body{
-    font-size: 24px;
-    background: white;
-}
-
-.gray{
-    background: gray;
-}
-nav{
-   height: 50px;
- 
-}
-
-.container{
-    background: white;
-    margin: 25px auto;
-    border: 5px solid gray;
-}
-
-#myImg{
-    height: 200px;
-    width: 200px;
-}
-#heading{
-    font-size: 36px;
-    color: lightgreen;
-    text-align: center;
-}
-
-footer{
-    text-align: center;
-    margin: 0;
-    border-top: 5px solid gray; 
-}
-
-       
-    </style>
 </head>
+
 <body>
-    <nav>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" style="font-size: 30px" href="#">Sergio</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav" >
-                        
+    <div class="container-fluid">
+
+        <nav>
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand" style="font-size: 30px" href="./index.html">Sergio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
                         <li class="nav-item">
-                          <a class="nav-link" href="../Bootstrap-Portfolio/index.html">About</a>
+                            <a class="nav-link" href="./index.html">About</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="../Bootstrap-Portfolio/contact.html">Contact</a>
+                            <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link" href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
                         </li>
-                      </ul>
-                    </div>
-                  </nav>
-    <div class="container">
-        <div class="row">
-            <div id="heading" class="col-md-4">Sergio</div>
-            <div class="col-md-8"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-12">
-                <hr>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-3 col-sm3">
-                    <img id="myImg" src="https://avatars1.githubusercontent.com/u/32347137?s=460&v=4" class="rounded float-left" alt="...">
-            </div>
-            <div class="col-md-9 col-sm9">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta temporibus, alias ipsa sequi velit, molestias est cum beatae mollitia qui assumenda ipsam expedita sapiente at voluptatum nemo earum tenetur. Voluptatem.
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nulla quibusdam quae! Nobis facilis accusantium quae cum laborum, atque explicabo perferendis dicta tempore et placeat autem officiis fugiat illum in.
-            </div>
-        </div>
-
-        <div class="row">
-                <div class="col-md-12">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nulla quibusdam quae! Nobis facilis accusantium quae cum laborum, atque explicabo perferendis dicta tempore et placeat autem officiis fugiat illum in.
+                    </ul>
                 </div>
+            </nav>
+        </nav>
+
+        <div class="jumbotron">
+            <div id="heading" class="text-center col-md-12">Sergio's Contact Info</div>
         </div>
 
+        <div class=" contactForm row">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputName">Name:</label>
+                        <input type="name" class="form-control" id="exampleInputPassword1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputMessage">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message Goes here."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="https://twitter.com/Sergio23Jr" target="_blank">
+                        <img src="./assets/images/if_Twitter_alt_4_98868.png" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/sergio-ontiveros-35663b169/" target="_blank">
+                        <img src="./assets/images/linkedIn.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </footer>
 
     </div>
-
-    <footer>
-        CopyRight 
-    </footer>
-    
-    
 </body>
+
 </html>

@@ -1,0 +1,72 @@
+body{
+    font-size: 24px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+    background: url("../images/Chicago-skyline.jpg") center;
+    }
+    .contactForm{
+    background-color: gray;
+    }
+    nav{
+    height: 50px;
+    color: white
+    
+    }
+    
+    .container{
+    margin: 25px auto;
+    border: 5px solid gray;
+    padding: 10px;
+    
+    }
+    
+    #myImg{
+    height: 200px;
+    width: 200px;
+    }
+    #heading{
+    
+    font-size: 36px;
+    
+    text-align: center;
+    text-shadow: 1px 1px white;
+    
+    }
+    footer{
+    text-align: center;
+    margin: 0;
+    border-top: 5px solid white;
+    height: 20px;
+    }
+    img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    padding: auto;
+    }
+    .navbar{
+    background-color: transparent
+    }
+    
+    .navlink{
+    color: white;
+    font-size: 20px;
+    }
+    .navbar-brand, .nav-link{
+    color: white;
+    }
+    
+    #projects{
+    color: white;
+    
+    }
+    .jumbotron{
+    background: white;
+    opacity: 50%;
+    padding: 0.25%;
+    }
+    .projectNames{
+    
+    opacity: 75%;
+    }
